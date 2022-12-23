@@ -1,7 +1,7 @@
 # ClubPenguinAuto
 ClubPenguin scripts to automate certain activities and AFK them
 
-#clubPenguinAutoMine
+# clubPenguinAutoMine
 It's a script meant to be used inside the mine. Once you're there run the
 script and it will tell you to select three different mining spots, the
 puffle action menu and the puffle money bag icon inside the menu. When
