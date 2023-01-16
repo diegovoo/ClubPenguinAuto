@@ -29,22 +29,22 @@ pos_three = mouse.position
 print('Saved #3')
 time.sleep(1)
 
-print('Put your mouse in the puffle action menu')
+print('Put your mouse in the puffle tricks menu')
 print(' ')
 print('Saving in 3 seconds...')
 time.sleep(3)
-pos_puffle_action_menu = mouse.position
+pos_puffle_tricks_menu = mouse.position
 mouse.click(Button.left,1)
-print('Saved puffle action menu')
+print('Saved puffle tricks menu')
 time.sleep(1)
 print(' ')
 
-print('Put your mouse in the money bag icon from the puffle menu')
+print('Put your mouse in the money bag icon from the puffle tricks menu')
 print(' ')
 print('Saving in 3 seconds...')
 time.sleep(3)
-pos_puffle_action_button = mouse.position
-print('Saved puffle action money bag')
+pos_puffle_tricks_button = mouse.position
+print('Saved money bag')
 
 print(' ')
 
@@ -56,10 +56,10 @@ puffle_action_time = 0
 
 def puffle_action():
     print('puffle mining action running')
-    mouse.position = pos_puffle_action_menu
+    mouse.position = pos_puffle_tricks_menu
     time.sleep(1)
     mouse.click(Button.left,1)
-    mouse.position = pos_puffle_action_button
+    mouse.position = pos_puffle_tricks_button
     time.sleep(1)
     mouse.click(Button.left,1)
 
