@@ -1,5 +1,4 @@
 import time
-import keyboard
 from pynput.mouse import Button, Controller
 import os
 
