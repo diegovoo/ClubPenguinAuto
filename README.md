@@ -21,3 +21,7 @@ is the one that has the numer of coins, its then going to ask you to hover
 over the yes button and that's all. 
 note: If it doesn't fully work try to hover over the yes button as right as
 possible when asked.
+
+## autoBuyItems
+
+### How to use
